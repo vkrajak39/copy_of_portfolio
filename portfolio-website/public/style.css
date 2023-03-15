@@ -1,0 +1,299 @@
+/* colours */
+
+/* // yellow hex #f1b457 rgb 241 180 87
+//violet hex #6562f7  rgb 101 98 247
+// blue  hex #3aafc9  rgb 58 175 201
+//red  hex #f66a61   rgb 246 106 97
+//black  hex #222a36   rgb 34 42 54
+//grey  hex #3e4651   rgb 62 70 81 
+//pink hex #ff64bf rgb 255 100 191
+*/
+
+
+
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    /* background-color:black ; */
+    color: #fff;
+    text-align: center;
+}
+
+/* hr{
+    color: #f05a5a;
+    background-color: #f1b457;
+    background-color: #6562f7;
+    background-color: #f88;
+    background-color: #f88;
+    background-color: #f88;
+    background-color: #f88;
+    background-color: #f88;
+    
+
+    background-color:rgb(82, 255, 99);
+    background-color:rgb(135, 239, 251);
+    background-color:#1a2331;
+    background-color:#3e4651;
+    background-color:rgb(255, 131, 236);
+
+    
+} */
+
+hr{
+    color: rgb(255, 215, 0);
+    color: rgb(246, 255, 0);
+}
+/****************** class ***************/
+/* overall conatiner navebar + landing page */
+.cf-custom{
+    padding: 3%  10%;
+    background-color: #222A36;
+}
+/* fullstop */
+.fullstop{
+    color: rgb(135, 239, 251);
+}
+/* underline */
+.underline{
+/* border-bottom:  0px; */
+
+
+
+}
+
+
+
+
+
+/* navbar */
+
+.navbar-custom{
+color: #fff;
+}
+
+.navbar-ul-custom{
+    margin-left: auto;
+    margin-right: 0;
+}
+
+
+
+.test{
+    height: 2000px;
+    background-color: aqua;
+}
+
+.nav-logo{
+    height: 3rem;
+    width: 3rem;
+}
+
+/* landing page  */
+.round-absolute{
+    border-radius: 100%;
+    
+    text-align: center;
+    /* padding: 3.5rem 0; */
+    color: #fff;
+    font-family: 'Golos Text';
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: bolder;
+
+
+}
+
+
+.landing-page-pic{
+    position: relative;
+    width: 75%;
+    bottom: 11%;
+}
+
+.landing-page-intro{
+    font-size: medium;
+    line-height: 1.2;
+    margin-top: 10%;
+}
+
+
+.developer-div{
+height: 12rem;
+width: 12rem;
+padding: 4.6rem 0;
+font-size: 1.8rem;
+top: 63%;
+right: 35%;
+z-index: 1;
+background-color:#676CDB;
+transform: rotate(9deg);
+}
+.problem-div{
+    left:19%;
+    top: 28%;
+    height: 9rem;
+    width: 9rem;
+    padding: 2.3rem 0;
+    background-color: #3AAFC9;
+    transform: rotate(-9deg);
+    
+
+}
+
+/* intorduction  */
+
+.introducion{
+    /* background-color: aquamarine; */
+    position: absolute;
+    font-size: 300%;
+    top:65%;
+    left: 5%;
+}
+/* footer */
+
+.footer{
+    background-color:#222A36;
+    padding: 7% 15% 0;
+    color: #3E4651;
+}
+
+.fa-linkedin-in:hover{
+    color: rgb(50, 82, 222);
+}
+
+.fa-facebook:hover{
+    color: rgb(50, 82, 222);
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.fa-github:hover{
+    background-color: #fff;
+    border-radius: 100%;
+    color: black;
+}
+.fa-instagram:hover{
+    color: rgb(223, 59, 168);
+    /* border-radius: 30%; */
+    /* background-color: #fff; */
+    
+    
+}
+.fa-brands{
+    text-decoration: none;
+    margin: 5% 2%;
+    padding: 0;
+    color: #3E4651;
+}
+.copyright-text{
+    font-size: 1.5rem;
+    padding-bottom: 100px;
+}
+.footer-logo{
+    height:10%;
+    width: 10%;
+}
+
+
+.cir-progress-bar{
+    height: 19rem;
+    width: 19rem;
+    /* display: ; */
+    /* padding: 0;
+    margin: 0; */
+
+}
+
+
+
+/* academics and skill section */
+.skill{
+    margin: 7% 0;
+    /* text-align: left; */
+}
+
+
+.skill-h2{
+    margin-bottom: 3%;
+    text-align: left;
+    margin-left: 3rem;
+}
+
+/* circular progress bar */
+
+.column-skill
+{
+    margin-bottom: 6%;
+}
+
+
+
+
+.skill-heading
+{
+    text-align: left;
+    font-size:3rem;
+}
+.cir-progress-bar{
+    margin: 8% 0;
+}
+
+.circular-bar-text{
+margin: 0 0 0 0;
+
+}
+
+
+/* .inside-circular-bar{
+    text-align: center;
+    margin-top: 22;
+} */
+
+
+/************ ID  *************************/
+
+#navbar{
+    font-size: 22px;
+    font-weight: normal;
+}
+
+#academic-skill{
+    background-color: #222A36;
+}
+
+
+/* testing part */
+
+
+.circular-bar-text{
+    font-size: 3.5rem;
+}
+
+
+
+/* media query */
+
+@media(max-width:998px)
+{
+    html{
+        font-size: 55%;
+    }
+    .circular-bar-text{
+        font-size: .5rem;
+    }
+}
+
+@media(mmin-width:768px)
+{
+    html{
+        font-size: 45%;
+    }
+    .circular-bar-text{
+        font-size: .5rem;
+    }
+
+}
