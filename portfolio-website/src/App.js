@@ -3,6 +3,9 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Footer from "./components/Footer";
 import AcademicAndSkills from "./components/AcademicAndSkills";
+import ContactMe from "./components/ContactMe";
+
+
 
 function App() {
   return (
@@ -12,6 +15,7 @@ function App() {
 
 
     <AcademicAndSkills></AcademicAndSkills>
+    <ContactMe/>
     <Footer/>
     </div>
     </>
