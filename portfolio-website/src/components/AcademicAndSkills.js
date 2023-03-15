@@ -3,7 +3,7 @@ import React from 'react';
 // import { CircularProgressbarWithChildren } from 'react-circular-progressbar';
 // import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import CircularProgressBar from "./CircularProgressBar";
-
+// import TestCircularProgressBar from "./CircularProgressBar";
 
 
 
@@ -38,6 +38,12 @@ const AcademicAndSkills = () => {
 
     return (
         <>
+
+            {/* test section */}
+            
+            
+
+
 
             {/*********** Academic section  ************* */}
             <segment className="academic-section">

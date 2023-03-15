@@ -15,6 +15,7 @@
 
 html{
     font-size: 62.5%;
+    /* font-size: 10px; */
 }
 
 body{
@@ -108,9 +109,12 @@ color: #fff;
 }
 
 
+
 .landing-page-pic{
     position: relative;
-    width: 75%;
+    
+    /* width: 80rem; */
+    height: 100vh;
     bottom: 11%;
 }
 
@@ -122,11 +126,11 @@ color: #fff;
 
 
 .developer-div{
-height: 12rem;
-width: 12rem;
-padding: 4.6rem 0;
-font-size: 1.8rem;
-top: 63%;
+height: 15rem;
+width: 15rem;
+padding: 5.9rem 0;
+font-size: 2.7rem;
+top: 70vh;
 right: 35%;
 z-index: 1;
 background-color:#676CDB;
@@ -135,12 +139,12 @@ transform: rotate(9deg);
 .problem-div{
     left:19%;
     top: 28%;
-    height: 9rem;
-    width: 9rem;
-    padding: 2.3rem 0;
+    height: 12rem;
+    width: 12rem;
+    padding: 3rem 0;
     background-color: #3AAFC9;
     transform: rotate(-9deg);
-    
+    font-size: 2rem;
 
 }
 
@@ -153,50 +157,6 @@ transform: rotate(9deg);
     top:65%;
     left: 5%;
 }
-/* footer */
-
-.footer{
-    background-color:#222A36;
-    padding: 7% 15% 0;
-    color: #3E4651;
-}
-
-.fa-linkedin-in:hover{
-    color: rgb(50, 82, 222);
-}
-
-.fa-facebook:hover{
-    color: rgb(50, 82, 222);
-    background-color: #fff;
-    border-radius: 100%;
-}
-
-.fa-github:hover{
-    background-color: #fff;
-    border-radius: 100%;
-    color: black;
-}
-.fa-instagram:hover{
-    color: rgb(223, 59, 168);
-    /* border-radius: 30%; */
-    /* background-color: #fff; */
-    
-    
-}
-.fa-brands{
-    text-decoration: none;
-    margin: 5% 2%;
-    padding: 0;
-    color: #3E4651;
-}
-.copyright-text{
-    font-size: 1.5rem;
-    padding-bottom: 100px;
-}
-.footer-logo{
-    height:10%;
-    width: 10%;
-}
 
 
 .cir-progress-bar{
@@ -207,6 +167,8 @@ transform: rotate(9deg);
     margin: 0; */
 
 }
+
+
 
 
 
@@ -244,7 +206,16 @@ transform: rotate(9deg);
 
 .circular-bar-text{
 margin: 0 0 0 0;
+font-size: 2.1rem;
+margin-top: 15.0rem;
+font-weight: bold;
 
+
+}
+
+.circular-bar-percentage{
+font-size: 1.8rem;
+font-weight: lighter;
 }
 
 
@@ -252,6 +223,121 @@ margin: 0 0 0 0;
     text-align: center;
     margin-top: 22;
 } */
+
+/* contact me section */
+
+.align-left{
+    text-align: left;
+}
+
+
+.contact-me-big-heading{
+    font-size: 15rem;
+}
+.form-btn{
+    background-color: transparent;
+    background-color: #222A36;
+    box-shadow: none;
+    border: none;
+    color: #3AAFC9;
+    font-size: 3rem;
+}
+
+.form-heading{
+    font-size: 3.5rem;
+
+
+}
+.form{
+    margin-left:4rem;
+}
+.contact-me-text{
+    padding: 6rem 0rem 2rem ;
+    padding-right: 35rem;
+    
+}
+
+
+.form-input{
+    background-color: transparent;
+    border: none;
+    width: 35rem;
+    resize: none;
+    border-bottom: 1px solid #3e4651;
+    margin: 2rem 0rem 5rem;
+    box-sizing: border-box;
+}
+
+.open-contact-me{
+    /* position: fixed; */
+    background-color: #676CDB;
+    color: #fff;
+    width: 16rem;
+    height: 16rem;
+    font-size: 2rem;
+    padding-top: 4.5rem;
+    transform: rotate(10deg);
+    left: 60rem;
+
+
+    /* z-index: ; */
+}
+
+
+
+/* footer */
+
+.footer{
+    background-color:#222A36;
+    padding: 30rem 15% 0;
+    color: #3E4651;
+}
+
+.fa-linkedin:hover{
+    color: rgb(50, 82, 222);
+    background-color: #fff;
+    border-radius: 10%;
+}
+
+.fa-facebook:hover{
+    color: rgb(50, 82, 222);
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.fa-github:hover{
+    background-color: #fff;
+    border-radius: 100%;
+    color: black;
+}
+.fa-instagram:hover{
+    color: rgb(223, 59, 168);
+    /* border-radius: 30%; */
+    /* background-color: #fff; */
+    
+    
+}
+
+.fa-envelope:hover{
+color:red;
+background-color: white;
+border-radius: 10%;
+}
+
+.custom-font-icon{
+    text-decoration: none;
+    margin: 2rem 1rem;
+    padding: 0;
+    color: #3E4651;
+}
+.copyright-text{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+.footer-logo{
+    height:6rem;
+    width: 6rem;
+}
 
 
 /************ ID  *************************/
@@ -269,31 +355,31 @@ margin: 0 0 0 0;
 /* testing part */
 
 
-.circular-bar-text{
-    font-size: 3.5rem;
-}
+
 
 
 
 /* media query */
 
-@media(max-width:998px)
+@media(max-width:991px)
 {
     html{
         font-size: 55%;
     }
     .circular-bar-text{
-        font-size: .5rem;
+        font-size: 2rem;
     }
 }
 
-@media(mmin-width:768px)
+@media(min-width:768px)
 {
     html{
         font-size: 45%;
     }
     .circular-bar-text{
-        font-size: .5rem;
+        font-size: 2rem;
     }
 
 }
+
+/* circular copied start */
