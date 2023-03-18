@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Footer from "./components/Footer";
 import AcademicAndSkills from "./components/AcademicAndSkills";
 import ContactMe from "./components/ContactMe";
-
+import Project from "./components/Project";
 
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
     <AcademicAndSkills></AcademicAndSkills>
     <ContactMe/>
     <Footer/>
+    <Project></Project>
     </div>
     </>
   );
