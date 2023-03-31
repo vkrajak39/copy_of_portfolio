@@ -48,7 +48,9 @@ const AcademicAndSkills = () => {
             {/*********** Academic section  ************* */}
             <segment className="academic-section">
                 <h1 className="academic-heading">
+                <div className="academic-heading">
                     Academics<span className='fullstop'>.</span>
+                </div>
                 </h1>
 
                 <div className="row">
@@ -96,7 +98,7 @@ const AcademicAndSkills = () => {
             {/* **********  skill section ********* */}
             <segment id="academic-skill">
 
-                <h1 className='skill-heading'>Skills<span className='fullstop'>.</span> </h1>
+                <h1 className='skill-heading academic-heading'>Skills<span className='fullstop'>.</span> </h1>
                 {/* <hr className='underline-skills underline'/> */}
                 <div className="web-development skill">
                     <h2 className='skill-h2'>Web Development</h2>
